@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main (int argc, char ** argv) 
+void displayHelloWorld()
 {
 	printf("Hello OC !\n");
+}
+
+int main (int argc, char ** argv) 
+{
+	displayHelloWorld();
 }
